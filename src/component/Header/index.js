@@ -4,52 +4,50 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container">
-        <div className="logo-main">
+        <div className="header-figure">
           <img src="https://htmlreference.io/images/html-reference-icon.png" alt="icon" />
           <img src="https://htmlreference.io/images/html-reference-type.png" alt="icon" />
         </div>
         <div className="header_content">
-          <div className="header_ad_box">
-            <div className="header-carbon">
-              <span>
-                <span className="carbon-wrap">
-                  <a
-                    href="https://srv.carbonads.net/ads/click/x/GTND42JNCV7D523YC6YLYKQNCY7D6K3EF67DEZ3JCYSD627YFTSDK23KC6BIVKQIC67ICKQWF6ADC5QYCVYDPKJLHEYIK2JLCVSD52JECTNCYBZ52K?segment=placement:htmlreferenceio;"
-                    className="carbon-img"
-                    target="_blank"
-                    rel="noopener sponsored noreferrer">
-                    <img
-                      src="https://cdn4.buysellads.net/uu/1/122503/1661961403-SumoLogic-CarbonREVISED.png"
-                      alt="ads via Carbon"
-                      border="0"
-                      height="100"
-                      width="130"
-                    />
-                  </a>
-                  <a
-                    href="https://srv.carbonads.net/ads/click/x/GTND42JNCV7D523YC6YLYKQNCY7D6K3EF67DEZ3JCYSD627YFTSDK23KC6BIVKQIC67ICKQWF6ADC5QYCVYDPKJLHEYIK2JLCVSD52JECTNCYBZ52K?segment=placement:htmlreferenceio;"
-                    className="carbon-text"
-                    target="_blank"
-                    rel="noopener sponsored noreferrer">
-                    Sumo Logic named a Challenger in 2022 Gartner Magic Quadrant for APM and
-                    Observability
-                  </a>
-                </span>
+          <div className="header-carbon">
+            <span>
+              <span className="carbon-wrap">
                 <a
-                  href="http://carbonads.net/?utm_source=htmlreferenceio&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon"
-                  className="carbon-poweredby"
+                  href="https://srv.carbonads.net/ads/click/x/GTND42JNCV7D523YC6YLYKQNCY7D6K3EF67DEZ3JCYSD627YFTSDK23KC6BIVKQIC67ICKQWF6ADC5QYCVYDPKJLHEYIK2JLCVSD52JECTNCYBZ52K?segment=placement:htmlreferenceio;"
+                  className="carbon-img"
                   target="_blank"
                   rel="noopener sponsored noreferrer">
-                  ads via Carbon
+                  <img
+                    src="https://cdn4.buysellads.net/uu/1/122503/1661961403-SumoLogic-CarbonREVISED.png"
+                    alt="ads via Carbon"
+                    border="0"
+                    height="100px"
+                    width="130px"
+                  />
+                </a>
+                <a
+                  href="https://srv.carbonads.net/ads/click/x/GTND42JNCV7D523YC6YLYKQNCY7D6K3EF67DEZ3JCYSD627YFTSDK23KC6BIVKQIC67ICKQWF6ADC5QYCVYDPKJLHEYIK2JLCVSD52JECTNCYBZ52K?segment=placement:htmlreferenceio;"
+                  className="carbon-text"
+                  target="_blank"
+                  rel="noopener sponsored noreferrer">
+                  Sumo Logic named a Challenger in 2022 Gartner Magic Quadrant for APM and
+                  Observability
                 </a>
               </span>
-            </div>
+              <a
+                href="http://carbonads.net/?utm_source=htmlreferenceio&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon"
+                className="carbon-poweredby"
+                target="_blank"
+                rel="noopener sponsored noreferrer">
+                ads via Carbon
+              </a>
+            </span>
           </div>
-          <div className="header_text">
+          <div className="header-text">
             <h2 className="header-title">A free guide to HTML</h2>
             <p className="header-subtitle">
               <strong>Learn by example</strong>:
-              <a href="https://htmlreference.io">htmlreference.io</a> is a free guide to HTML. It
+              <a href="https://htmlreference.io"> htmlreference.io</a> is a free guide to HTML. It
               features all <strong>elements</strong> and <strong>attributes</strong>.
             </p>
             <footer className="header-share">
