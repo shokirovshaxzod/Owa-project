@@ -50,9 +50,11 @@ const Header = () => {
               <a href="https://htmlreference.io"> htmlreference.io</a> is a free guide to HTML. It
               features all <strong>elements</strong> and <strong>attributes</strong>.
             </p>
+
             <footer className="header-share">
               <a
                 className="share-button share-button--twitter"
+                data-tooltip-after="Share on Twitter"
                 href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fhtmlreference.io&amp;text=HTML+Reference%3A+a+free+guide+to+all+HTML+elements+and+attributes."
                 rel="external nofollow noreferrer"
                 target="_blank">
@@ -72,6 +74,7 @@ const Header = () => {
 
               <a
                 className="share-button share-button--facebook"
+                data-tooltip-after="Share on Facebook"
                 href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhtmlreference.io"
                 rel="external nofollow noreferrer"
                 target="_blank">
@@ -87,8 +90,8 @@ const Header = () => {
                   <path
                     fill="#3C5A99"
                     d="M248.082,262.307c7.854,0,14.223-6.369,14.223-14.225V18.812
-  c0-7.857-6.368-14.224-14.223-14.224H18.812c-7.857,0-14.224,6.367-14.224,14.224v229.27c0,7.855,6.366,14.225,14.224,14.225
-  H248.082z"></path>
+                    c0-7.857-6.368-14.224-14.223-14.224H18.812c-7.857,0-14.224,6.367-14.224,14.224v229.27c0,7.855,6.366,14.225,14.224,14.225
+                    H248.082z"></path>
                   <path
                     fill="#FFFFFF"
                     d="M182.409,262.307v-99.803h33.499l5.016-38.895h-38.515V98.777c0-11.261,3.127-18.935,19.275-18.935
